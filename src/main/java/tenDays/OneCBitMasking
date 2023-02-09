@@ -1,0 +1,26 @@
+Bit Masking
+
+Find ith bit :
+
+n = 1 0 0 1 0 1 1 1 0 0
+m = 0 0 0 0 0 1 0 0 0 0    and do & (and ) if you answer is 1 then 1 otherwise zero
+-----------------------
+and n & m non zero mean 1 (m is mask bit)
+m  = 1 << i;
+
+
+
+Set ith Bit
+n = 1 0 0 1 0 1 1 1 0 0
+m = 0 0 0 0 0 1 0 0 0 0    and do | (or)
+-----------------------
+    1 0 0 1 0 0 0 0 0 0
+and n & m non zero mean 1 (m is mask bit)
+m  = 1 << i;
+
+
+Clear ith Bit
+
+
+
+

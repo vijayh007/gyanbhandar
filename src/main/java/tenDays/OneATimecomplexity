@@ -1,0 +1,20 @@
+Time Complexity :
+
+BIG O, THETA Notation, Omega Notation
+
+- Big O notation  mostly used in computer science.
+- We need to ignore constant
+    Like :  3n+5n = n
+            3n^2+ 5n = n^2
+            N + 100logN = N
+            3N^3+ 4N^5 = N^5
+
+Always remember 10^8 rules
+
+    < 10^8       O(N), O(logN)
+    < 10^6       O(NlogN)
+    < 10^4       O(N^2)
+    < 2000        O(N^2logN)
+    < 400         O(N^3)
+    < 100         O(N^)
+    <[15...18]    O(2^n*n^2)

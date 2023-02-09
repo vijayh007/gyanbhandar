@@ -1,0 +1,51 @@
+Bit Manipulations
+
+Decimal : base 10
+274 = 2*10^2 + 7*10^1 + 4*10^0
+
+Binary : Base 2
+101 : 1*2^2 + 0*2^1 + 1*2^0 = in decimal its 5
+
+Binary example
+Ex : 8421
+1001 = 9
+1110 = 13
+
+Addition and Subtraction
+Addition
+  101
++ 111
+ ----
+ 1100
+
+Subtraction : First we need to find the 2s complement of binary and add the two numbers
+
+
+Bitwise operators :
+&(and) :  work on two operand : if 1 and 1 only one (1)
+|(or) :  0 and 0 only 0 otherwise 1
+^(XOR) : if both the bit are different then only 1 otherwise 0.
+~(tilt) : inverse the bit  : like 101 to 010 :
+>> right shift operator : shift the bit to right side Ex : 12 : 1100 >>2 : 0011 (become 3)
+<< left shift operator  :shift the bit to left : Ex : 3 : 0011 << 2 = 1100 (become 12)
+                            1100<<2 = 110000 (48)
+Note : >> Right shift mean Divide by 2 and  << left shift mean Multiply by 2. only work with divide/multiply by 2 only.
+
+
+Odd Even Number :
+if(number % 2== 0) even else odd.
+in Binary if last bit in one(1) mean odd if 0 mean even.
+if we do (& 1) with number and check last digit if 1 mean Odd if 0 mean even.
+
+
+Swap two number :
+a = 10;
+b = 15;
+we can use XOR
+a = a^b;
+b = a^b;
+a = a^b;
+
+
+
+
