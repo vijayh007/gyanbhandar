@@ -11,12 +11,12 @@ public class OneG1_Recursion {
     public static void main(String[] args) {
         int n = 5;
         //sum for N Natural numbers
-       // System.out.println(sum(n));
+       System.out.println(sum(n));
 
         int a  = 2;
         int b = 3;
         //calculate a^b
-        System.out.println(power(a, b));
+     //   System.out.println(power(a, b));
     }
 
     public static int power(int a, int b){
